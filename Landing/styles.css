@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    width: auto;
+    padding: 20px;
+    align-items: center;
+    flex: auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+.container-hero {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.btn-signup {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.information {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container-information {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(25% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.quote-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.call {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container-call {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
